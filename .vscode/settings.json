@@ -1,0 +1,15 @@
+{
+	// 默认自定义配置
+	"css.validate": false,
+	"less.validate": false,
+	"scss.validate": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.stylelint": true
+	},
+	// 扩展自定义配置
+	"stylelint.configBasedir": "/Users/wangshihao/.nvm/versions/node/v16.4.1/lib/node_modules/@yangzw/bruce-std",
+	"stylelint.configFile": "/Users/wangshihao/.nvm/versions/node/v16.4.1/lib/node_modules/@yangzw/bruce-std/stylelint/stylelintrc.js",
+	"stylelint.customSyntax": "postcss-less", // 可变❗
+	"stylelint.stylelintPath": "/Users/wangshihao/.nvm/versions/node/v16.4.1/lib/node_modules/@yangzw/bruce-std/node_modules/stylelint",
+	"stylelint.validate": ["html", "css", "scss", "less", "vue"]
+}

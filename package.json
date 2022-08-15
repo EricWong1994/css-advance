@@ -1,0 +1,17 @@
+{
+	"name": "css-advance",
+	"version": "1.0.0",
+	"description": "",
+	"keywords": [],
+	"author": "",
+	"engines": {
+		"node": ">=16.0.0",
+		"npm": ">=7.10.0"
+	},
+	"dependencies": {
+		"vue": "3.2.36",
+		"vue-router": "4.0.13"
+	},
+	"devDependencies": {},
+	"license": "MIT"
+}
