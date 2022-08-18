@@ -1,0 +1,27 @@
+/* 使用变量 */
+// :root全局变量
+// :root {
+// 	--bg-color: red;
+// }
+.title {
+	background-color: var(--bg-color);
+}
+.desc {
+	background-color: var(--bg-color);
+}
+.juejin-view {
+	--bg-color: red;
+	display: flex;
+	justify-content: center;
+	.container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 400px;
+		height: 400px;
+		background-color: skyblue;
+		background-color: var(--bg-color);
+		font-size: 28px;
+		color: #fff;
+	}
+}

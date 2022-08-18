@@ -14,6 +14,7 @@
 				>bruce-app doc</a
 			>
 		</p>
+		<juejin></juejin>
 	</div>
 </template>
 
@@ -55,8 +56,12 @@
 
 <script>
 import { defineComponent } from 'vue';
+import juejin from './components/juejin/index.vue';
 
 export default defineComponent({
 	name: 'home',
+	components: {
+		juejin,
+	},
 });
 </script>
